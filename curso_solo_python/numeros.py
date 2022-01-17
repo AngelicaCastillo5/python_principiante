@@ -42,3 +42,19 @@ print("slicing saltados: ", caracter[0:8:2])
 print("Cadena en mayusculas: ", caracter.upper())
 print("Cadena en minusculas: ",caracter.lower())
 print("separacion split: ", caracter.split())
+
+##format 
+
+print('Esta es una cadena de {}'.format('TEXTO'))
+print('Esta {} {} {}'.format('es','una','cadena'))
+print('Esta {0} {1} {2}'.format('es','una','cadena'))
+print('Esta {e} {u} {c}'.format(e='es',u='una',c='cadena'))
+
+
+resultado=100/888
+print("Los resultados son: {}".format(resultado))
+print("Los resultados son: {r:1.3f}".format(r=resultado))
+print("Los resultados son: {r:10.3f}".format(r=resultado))
+nombre="Angelica"
+edad=27
+print(f"La persona se llama : {nombre} con edad de {edad}")
