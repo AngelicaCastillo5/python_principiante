@@ -23,4 +23,22 @@ print("operaciones matematicas : ", suma_multiplicacion)
 
 ### Cons 
 # Resultan errores de datos inesperados 
-# cuidado con type
+# cuidado con type()
+
+caracter="cadena de Texto con Muchos caracteres"
+
+print("largo de la cadena caracter ",len(caracter))
+# comilla simple para expresiones dentro de algo
+# comillas dobles para expresiones por fuera
+#las cadenas tienen indices
+# las cadenas tienen indice inverso
+# indexado y slicing
+
+print("indexado de la cadena de caracteres: ",caracter[3])
+print("indexado inverso: ", caracter[-1])
+print("slicing: ", caracter[:])
+print("slicing por tramos:", caracter[0:5])
+print("slicing saltados: ", caracter[0:8:2])
+print("Cadena en mayusculas: ", caracter.upper())
+print("Cadena en minusculas: ",caracter.lower())
+print("separacion split: ", caracter.split())
